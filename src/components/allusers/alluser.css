@@ -1,0 +1,13 @@
+.allUsers{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.userCard{
+    display: inline;
+    width: 30%;
+    margin:20px auto;
+    box-shadow: 0 26px 46px rgb(97 172 179 / 20%);
+    overflow-y: auto;
+}

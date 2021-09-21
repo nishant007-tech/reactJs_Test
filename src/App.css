@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.registerContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.registerContainer img{
+width: 100%;
+height: 100vh;
+}
+.registerContainer .firstSection{
+  width: 100%;
+  height:calc(100vh - 2px);
+  object-fit: fill;
+}
+.registerContainer .secondSection{
+  width: 62%;
+  justify-content: center;
+  text-align: center;
+
+}
+.registerContainer .secondSection form{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 30px;
+  margin-top: 10%;
+}
+.registerContainer .secondSection form p{
+  margin-bottom: 20px !important;
+}
+.registerContainer .secondSection form h3,.registerContainer .secondSection form p{
+  margin: 0;
+  letter-spacing: 0.6px;
+}
+.registerContainer .secondSection input{
+margin: 20px auto auto auto;
+padding: 10px;
+width: 70%;
+font-size: 16px;
+border: none;
+border-bottom: 1px solid grey;
+outline: none;
+}
+.rememberUsSection{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 30px auto;
+  font-size: 14px;
+}
+.rememberUsSection a{
+  color: #61acb3;
+  text-decoration: none;
+}
+.rememberUsSection div {
+  display: flex;
+  align-items: center;
+}
+
+.rememberUsSection div input{
+  width: unset !important;
+  margin: unset !important;
+  display: flex;
+  margin-right: 7px !important;
+  cursor: pointer;
+  align-items: center;
+}
+.registerContainer .secondSection form button{
+  width: 70% !important;
+  margin: 50px auto 20px auto;
+  padding: 9px;
+  color: white;
+  background-color: #61acb3;
+  border: none;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+.registerContainer .secondSection form a{
+  text-decoration: none;
+  color: #61acb3;
+  
+}
+.registerContainer .secondSection form button:hover{
+  opacity: 0.8;
+}
+
+.compliance{
+  margin-top: 12%;
+  font-size: 15px;
+  color: rgb(82, 82, 82);
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
